@@ -17,3 +17,46 @@
 .headerSecuredDesktop-logo {
     background-color: #000;
 }
+
+.headerSecured-container {
+    background: #000;
+}
+
+body #conversation-list-rows .conversation.read {
+    background: #fff;
+}
+
+body #conversation-list-rows .conversation {
+    background: #f2f2f2;
+    border-bottom: 1px dashed #20C20E;
+}
+
+.conversation.marked:before {
+    background-color: #20C20E;
+}
+
+.pm_toolbar {
+    -webkit-box-shadow: inset 0 -1px 0 #20C20E;
+     box-shadow: inset 0 -1px 0 #20C20E;
+}
+
+.sidebarApp-container .sidebar-btn-compose {
+    background: #43434f;
+    border-color: #43434f;
+
+}
+.sidebarApp-container .sidebar-btn-compose:hover {
+    background-color: #20C20E;
+}
+
+.pm_button {
+    border: 1px solid #43434f;
+}
+
+.sidebarApp-container .footer div.storage strong {
+    color: #43434f;
+}
+
+.navigation>li.active, .navigation>li:hover {
+    border-color: #20C20E;
+}
